@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+body {
+    background-color: #F9F6EC;
+}
+
+h1 {
+    font-family: 'Bungee Shade', sans-serif;
+    margin: 2.4rem;
+    font-size: 3.1rem;
+    color: black;
+}
+
+.navlinks {
+    font-family: 'Bungee', sans-serif;
+}
+
