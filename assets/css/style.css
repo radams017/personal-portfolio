@@ -1,18 +1,107 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
 
 body {
-    background-color: #F9F6EC;
+    background-color: #eddbcd;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
     font-family: 'Bungee Shade', sans-serif;
     margin: 2.4rem;
     font-size: 3.1rem;
+    letter-spacing: 0.3em;
     color: black;
+    z-index: 1;
+}
+
+h2 {
+    font-family: 'Bungee', sans-serif;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.bkg-img {
+    height: 600px;
+    width: 800px;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    /* transform: rotate(350deg); */
+}
+
+.nav-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-items {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .navlinks {
     font-family: 'Bungee', sans-serif;
+    margin: 1.5rem 3rem 0;
+    font-size: 1.5rem;
 }
 
+.navlinks a {
+    text-decoration: none;
+}
+
+.navlinks a:link {
+    color: black;
+}
+
+.navlinks a:visited {
+    color: black;
+}
+
+.navlinks a:hover {
+    opacity: 0.5;
+    border-bottom: 1px solid black;
+}
+
+.my-name {
+    margin: 9rem 0;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-me {
+    flex-direction: column;
+    margin: 6.5rem 0 0 2rem;
+    border-top: 3px solid black;
+}
+
+.about-me p {
+    font-family: 'Bungee Hairline', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    word-spacing: 0.2em;
+}
+
+@media screen and (max-width: 992px) {
+    .bkg-img{
+        display: none;
+    }
+
+    .about-me {
+        margin: 1rem 0 0 2rem;
+    }
+}
