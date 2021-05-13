@@ -59,6 +59,7 @@ img {
 
 .navlinks a {
     text-decoration: none;
+    cursor: pointer;
 }
 
 .navlinks a:link {
@@ -80,20 +81,23 @@ img {
 
 .content {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .about-me {
     flex-direction: column;
-    margin: 6.5rem 0 0 2rem;
-    border-top: 3px solid black;
+    margin: 6.5rem 10rem 0 1rem;
 }
 
 .about-me p {
     font-family: 'Bungee Hairline', sans-serif;
-    font-weight: bold;
+    font-weight: 1000;
     font-size: 1.2rem;
     word-spacing: 0.2em;
+}
+
+.my-work {
+    margin: 5.5rem 10rem 0 1rem;
 }
 
 @media screen and (max-width: 992px) {
