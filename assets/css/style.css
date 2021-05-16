@@ -32,17 +32,19 @@ img {
 }
 
 .bkg-img {
-    height: 600px;
-    width: 800px;
+    height: 300px;
+    width: 250px;
     flex-wrap: wrap;
     flex-shrink: 0;
-    /* transform: rotate(350deg); */
+    text-align: center;
+    margin-right: 200px;
 }
 
 .nav-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-right: 200px;
 }
 
 .nav-items {
@@ -118,6 +120,7 @@ img {
 .icons {
     display: flex;
     flex-direction: row;
+    margin-bottom: 75px;
 }
 
 .github {
