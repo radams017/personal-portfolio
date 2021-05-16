@@ -18,5 +18,5 @@
 
 ## Webpage Screenshot - Section
 
-![Webpage Screenshot - Section]()
+![Webpage Screenshot - Section](https://github.com/radams017/personal-portfolio/blob/main/assets/images/webpage_ss_section.png)
 
