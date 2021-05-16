@@ -73,8 +73,9 @@ img {
 }
 
 .navlinks a:hover {
+    color: rgb(229, 127, 11);
     opacity: 0.5;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(229, 127, 11);
 }
 
 .my-name {
@@ -84,6 +85,13 @@ img {
 .about-me {
     flex-direction: column;
     margin: 6.5rem 10rem 0 1rem;
+}
+
+.line {
+    display: flex;
+    margin: 15rem 10rem 0 -1rem;
+    padding: 2px;
+    background: linear-gradient(to right, #fb721d, #fbb346);
 }
 
 .about-me p {
@@ -128,9 +136,10 @@ img {
 }
 
 .github:hover {
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgb(229, 127, 11) 0px 3px 8px;
     border-radius: 35px;
 }
+
 
 @media screen and (max-width: 992px) {
     .bkg-img{
