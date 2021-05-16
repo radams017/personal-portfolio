@@ -9,4 +9,4 @@
 
 ## Webpage Screenshot
 
-![Webpage Screenshot](assets/images/webpage_ss.png)
+![Webpage Screenshot](https://github.com/radams017/personal-portfolio/blob/main/assets/images/webpage_ss.png)
