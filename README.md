@@ -12,6 +12,9 @@
 - This webpages main use is to provide material for potential employers in the event I am to apply, or be reached out to, for future work. 
 - This webpages tertiary use is to be a singular, easy to navigate, stylish repository for all of my work.
 
+# Deployed
+https://radams017.github.io/personal-portfolio/
+
 ## Webpage Screenshot - Home
 
 ![Webpage Screenshot - Section](assets/images/port2.png)
