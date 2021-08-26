@@ -91,7 +91,7 @@ header {
 
 .card:hover {
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-    transform: scale(1.05)
+    transform: scale(1.01)
 }
 
 @keyframes typing {

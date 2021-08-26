@@ -16,18 +16,18 @@ $('#crypto-repo').click(() => {
     window.open('https://github.com/radams017/Defi-101', '_blank')
 })
 
-$('#plan-deployed').click(() => {
-    window.open('https://radams017.github.io/day-planner/', '_blank')
+$('#sword-deployed').click(() => {
+    window.open('https://frozen-harbor-76666.herokuapp.com/', '_blank')
 })
 
-$('#plan-repo').click(() => {
-    window.open('https://github.com/radams017/day-planner', '_blank')
+$('#sword-repo').click(() => {
+    window.open('https://github.com/radams017/S.W.O.R.D', '_blank')
 })
 
-$('#quiz-deployed').click(() => {
-    window.open('https://radams017.github.io/code-quiz/', '_blank')
+$('#notes-deployed').click(() => {
+    window.open('https://stark-lake-38210.herokuapp.com/', '_blank')
 })
 
-$('#quiz-repo').click(() => {
-    window.open('https://github.com/radams017/code-quiz', '_blank')
+$('#notes-repo').click(() => {
+    window.open('https://github.com/radams017/notetaker-app', '_blank')
 })
